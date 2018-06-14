@@ -1,3 +1,3 @@
-# CR.ViewModels.Core
+# CR.ViewModels.Applicationstate
 
-A package containing .NET interfaces for reading/writing CQRS ViewModels in a generic way.
+A package containing IViewModelReader and IViewModelWriter implementations using ApplicationState, for use with CR.ViewModels.Core.
