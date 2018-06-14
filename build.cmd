@@ -13,4 +13,4 @@ dotnet build .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.cspro
 dotnet test .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory .\dist -Version %version% -Verbosity detailed
+.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory .\dist -Version %version% -Verbosity detailed -Properties "tag=%version%;"
