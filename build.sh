@@ -11,4 +11,4 @@ url -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
 dotnet test .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj
 
-.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory ..\..\dist -Version "$version" -Verbosity detailed
+.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory .\dist -Version "$version" -Verbosity detailed
