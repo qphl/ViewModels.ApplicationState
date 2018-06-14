@@ -4,6 +4,10 @@ version="0.0.0"
 if [ -n "$1" ]; then version="$1"
 fi
 
+tag="0.0.0"
+if [ -n "$2" ]; then tag="$2"
+fi
+
 url -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
 .\nuget.exe restore .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj -PackagesDirectory .\src\packages -Verbosity detailed
@@ -11,4 +15,4 @@ url -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
 dotnet test .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj
 
-.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory .\dist -Version "$version" -Verbosity detailed -Properties "tag=$version;"
+.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory .\dist -Version "$version" -Verbosity detailed -Properties "tag=$tag;"
