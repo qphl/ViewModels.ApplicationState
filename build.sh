@@ -4,6 +4,11 @@ version="0.0.0"
 if [ -n "$1" ]; then version="$1"
 fi
 
-dotnet test src/ViewModels.ApplicationState.Tests/ViewModels.ApplicationState.Tests.csproj
+url -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
-dotnet pack src/ViewModels.ApplicationState/ViewModels.ApplicationState.csproj -o ../../dist -p:Version="$version" -p:PackageVersion="$version" -c Release
+.\nuget.exe restore .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj -PackagesDirectory .\src\packages -Verbosity detailed
+.\nuget.exe restore .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -PackagesDirectory .\src\packages -Verbosity detailed
+
+dotnet test .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj
+
+.\nuget.exe pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -OutputDirectory ..\..\dist -Version "$version" -Verbosity detailed
