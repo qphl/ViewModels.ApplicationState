@@ -11,6 +11,6 @@
         <licenseUrl>https://github.com/cognisant/ViewModels.ApplicationState/blob/master/LICENSE</licenseUrl>
         <iconUrl>https://github.com/cognisant/ViewModels.ApplicationState/blob/master/logo.png</iconUrl>
         <copyright>Cognisant Research 2018</copyright>
-        <releaseNotes>https://GitHub.com/Cognisant/ViewModels.ApplicationState/releases/tag/@tag@</releaseNotes>
+        <releaseNotes>https://GitHub.com/Cognisant/ViewModels.ApplicationState/releases/tag/$tag$</releaseNotes>
     </metadata>
 </package>
