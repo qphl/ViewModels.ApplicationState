@@ -2,7 +2,7 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Persistence.ApplicationState
+namespace CR.ViewModels.ApplicationState
 {
     using System.Collections.Generic;
     using System.Web;

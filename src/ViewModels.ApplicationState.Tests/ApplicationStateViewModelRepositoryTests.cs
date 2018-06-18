@@ -2,12 +2,12 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Tests
+namespace CR.ViewModels.Core.Tests
 {
     using System;
     using System.Web;
+    using ApplicationState;
     using NUnit.Framework;
-    using Persistence.ApplicationState;
 
     /// <inheritdoc />
     [TestFixture]

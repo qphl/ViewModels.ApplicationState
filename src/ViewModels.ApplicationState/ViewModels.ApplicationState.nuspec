@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CR.ViewModels.ApplicationState</id>
+        <version>0.0.0</version>
+        <description>A package containing IViewModelReader and IViewModelWriter implementations using ApplicationState, for use with CR.ViewModels.Core.</description>
+        <authors>Cognisant Research</authors>
+        <title>CR.ViewModels.ApplicationState</title>
+        <owners>Cognisant Research</owners>
+        <projectUrl>https://github.com/Cognisant/ViewModels.ApplicationState</projectUrl>
+        <licenseUrl>https://github.com/cognisant/ViewModels.ApplicationState/blob/master/LICENSE</licenseUrl>
+        <iconUrl>https://github.com/cognisant/ViewModels.ApplicationState/blob/master/logo.png</iconUrl>
+        <copyright>Cognisant Research 2018</copyright>
+        <releaseNotes>https://GitHub.com/Cognisant/ViewModels.ApplicationState/releases/tag/$tag$</releaseNotes>
+    </metadata>
+</package>
