@@ -5,6 +5,7 @@ IF NOT [%1]==[] (set VERSION=%1)
 
 SET TAG=0.0.0
 IF NOT [%2]==[] (set TAG=%2)
+SET TAG=%TAG:tags/=%
 
 curl -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -k
 
