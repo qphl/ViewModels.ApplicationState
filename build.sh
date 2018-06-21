@@ -16,4 +16,4 @@ curl -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -k
 
 dotnet test .\\src\\ViewModels.ApplicationState.Tests\\ViewModels.ApplicationState.Tests.csproj
 
-.\\nuget.exe pack .\\src\\ViewModels.ApplicationState\\ViewModels.ApplicationState.csproj -OutputDirectory .\\dist -Version "$version" -Verbosity detailed -Properties "tag=$tag;"
+dotnet pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -o ..\..\dist -p:Version="$version" -p:PackageVersion="$version" -p:Tag="$tag" -c Release
