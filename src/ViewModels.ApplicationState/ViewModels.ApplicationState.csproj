@@ -39,7 +39,7 @@
     <PackageReference Include="CR.CodeStyle.CSharp.Full" Version="[1.0.1,2.0.0-0)">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-	<PackageReference Include="CR.ViewModels.Core" Version="[1.0.0,2.0.0-a)" />
+	<PackageReference Include="CR.ViewModels.Core" Version="[1.0.1,2.0.0-a)" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.0-beta006\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
