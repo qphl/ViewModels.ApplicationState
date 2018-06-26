@@ -12,9 +12,8 @@ if %errorlevel% neq 0 exit /b %errorlevel%
 
 .\nuget.exe restore .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj -PackagesDirectory .\src\packages -Verbosity detailed
 if %errorlevel% neq 0 exit /b %errorlevel%
-.\nuget.exe restore .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -PackagesDirectory .\src\packages -Verbosity detailed
-if %errorlevel% neq 0 exit /b %errorlevel%
 
+.\nuget.exe restore .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -PackagesDirectory .\src\packages -Verbosity detailed
 if %errorlevel% neq 0 exit /b %errorlevel%
 
 dotnet build .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -p:Version=%VERSION% -c Release
