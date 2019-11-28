@@ -22,5 +22,5 @@ if %errorlevel% neq 0 exit /b %errorlevel%
 dotnet test .\src\ViewModels.ApplicationState.Tests\ViewModels.ApplicationState.Tests.csproj
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-dotnet pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -o ..\..\dist -p:Version="%VERSION%" -p:PackageVersion="%VERSION%" -p:Tag="%TAG%" -c Release
+dotnet pack .\src\ViewModels.ApplicationState\ViewModels.ApplicationState.csproj -o .\dist -p:Version="%VERSION%" -p:PackageVersion="%VERSION%" -p:Tag="%TAG%" -c Release
 exit /b %errorlevel%

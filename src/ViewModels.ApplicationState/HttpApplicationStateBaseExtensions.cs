@@ -1,8 +1,8 @@
-﻿// <copyright file="HttpApplicationStateBaseExtensions.cs" company="Cognisant">
-// Copyright (c) Cognisant. All rights reserved.
+﻿// <copyright file="HttpApplicationStateBaseExtensions.cs" company="Corsham Science">
+// Copyright (c) Corsham Science. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.ApplicationState
+namespace CorshamScience.ViewModels.ApplicationState
 {
     using System.Collections.Generic;
     using System.Web;

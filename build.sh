@@ -16,4 +16,4 @@ curl -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -k
 
 dotnet test .\\src\\ViewModels.ApplicationState.Tests\\ViewModels.ApplicationState.Tests.csproj
 
-dotnet pack .\\src\\ViewModels.ApplicationState\\ViewModels.ApplicationState.csproj -o ..\\..\\dist -p:Version="$version" -p:PackageVersion="$version" -p:Tag="$tag" -c Release
+dotnet pack .\\src\\ViewModels.ApplicationState\\ViewModels.ApplicationState.csproj -o .\\dist -p:Version="$version" -p:PackageVersion="$version" -p:Tag="$tag" -c Release

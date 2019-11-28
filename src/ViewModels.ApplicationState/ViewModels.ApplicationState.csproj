@@ -6,8 +6,8 @@
     <ProjectGuid>{A4A3A5EF-3F85-47A5-A39C-DF936CAE60AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CR.ViewModels.ApplicationState</RootNamespace>
-    <AssemblyName>CR.ViewModels.ApplicationState</AssemblyName>
+    <RootNamespace>CorshamScience.ViewModels.ApplicationState</RootNamespace>
+    <AssemblyName>CorshamScience.ViewModels.ApplicationState</AssemblyName>
     <TargetFramework>net471</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -23,7 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <DocumentationFile>bin\Debug\CR.ViewModels.ApplicationState.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\CorshamScience.ViewModels.ApplicationState.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,17 +33,20 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <DocumentationFile>bin\Release\CR.ViewModels.ApplicationState.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\CorshamScience.ViewModels.ApplicationState.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CR.CodeStyle.CSharp.Full" Version="[1.0.1,2.0.0-0)">
-      <PrivateAssets>All</PrivateAssets>
-    </PackageReference>
-	<PackageReference Include="CR.ViewModels.Core" Version="[1.0.1,2.0.0-a)" />
+	<PackageReference Include="CorshamScience.CodeStyle.CSharp.Full" Version="3.0.0">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="CorshamScience.ViewModels.Core" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.0-beta006\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
-    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.0-beta006\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
+    <None Include="Logo.png">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web" />
@@ -52,6 +55,6 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\CR.CodeStyle.CSharp.Full.1.0.1\build\CR.CodeStyle.CSharp.Full.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CR.CodeStyle.CSharp.Full.1.0.1\build\CR.CodeStyle.CSharp.Full.props'))" />
+    <Error Condition="!Exists('..\packages\CorshamScience.CodeStyle.CSharp.Full.3.0.0\build\CorshamScience.CodeStyle.CSharp.Full.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CorshamScience.CodeStyle.CSharp.Full.3.0.0\build\CorshamScience.CodeStyle.CSharp.Full.props'))" />
   </Target>
 </Project>

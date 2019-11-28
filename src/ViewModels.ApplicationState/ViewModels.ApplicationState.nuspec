@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>CR.ViewModels.ApplicationState</id>
+        <id>CorshamScience.ViewModels.ApplicationState</id>
         <version>0.0.0</version>
-        <description>A package containing IViewModelReader and IViewModelWriter implementations using ApplicationState, for use with CR.ViewModels.Core.</description>
-        <authors>Cognisant Research</authors>
-        <title>CR.ViewModels.ApplicationState</title>
-        <owners>Cognisant Research</owners>
-        <projectUrl>https://github.com/Cognisant/ViewModels.ApplicationState</projectUrl>
-        <licenseUrl>https://github.com/cognisant/ViewModels.ApplicationState/blob/master/LICENSE</licenseUrl>
-        <iconUrl>https://raw.githubusercontent.com/cognisant/ViewModels.ApplicationState/master/logo.png</iconUrl>
-        <copyright>Cognisant Research 2018</copyright>
-        <releaseNotes>https://GitHub.com/Cognisant/ViewModels.ApplicationState/releases/tag/$tag$</releaseNotes>
+        <description>A package containing IViewModelReader and IViewModelWriter implementations using ApplicationState, for use with CorshamScience.ViewModels.Core.</description>
+        <authors>Corsham Science</authors>
+        <title>CorshamScience.ViewModels.ApplicationState</title>
+        <owners>Corsham Science</owners>
+        <projectUrl>https://github.com/qphl/ViewModels.ApplicationState</projectUrl>
+        <licenseUrl>https://github.com/qphl/ViewModels.ApplicationState/blob/master/LICENSE</licenseUrl>
+        <iconUrl>https://raw.githubusercontent.com/qphl/ViewModels.ApplicationState/master/logo.png</iconUrl>
+        <copyright>Corsham Science 2019</copyright>
+        <releaseNotes>https://GitHub.com/qphl/ViewModels.ApplicationState/releases/tag/$tag$</releaseNotes>
+        <icon>Logo.png</icon>
+        <license type="expression">BSD-3-Clause</license>
     </metadata>
+    <files>
+        <file src="Logo.png" target="" />
+    </files>
 </package>

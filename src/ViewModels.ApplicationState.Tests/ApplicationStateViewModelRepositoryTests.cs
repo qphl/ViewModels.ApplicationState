@@ -1,12 +1,12 @@
-﻿// <copyright file="ApplicationStateViewModelRepositoryTests.cs" company="Cognisant">
-// Copyright (c) Cognisant. All rights reserved.
+﻿// <copyright file="ApplicationStateViewModelRepositoryTests.cs" company="Corsham Science">
+// Copyright (c) Corsham Science. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Core.Tests
+namespace CorshamScience.ViewModels.Core.Tests
 {
     using System;
     using System.Web;
-    using ApplicationState;
+    using CorshamScience.ViewModels.ApplicationState;
     using NUnit.Framework;
 
     /// <inheritdoc />
