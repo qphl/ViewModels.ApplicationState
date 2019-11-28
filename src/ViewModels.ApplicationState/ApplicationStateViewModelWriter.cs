@@ -1,8 +1,8 @@
-﻿// <copyright file="ApplicationStateViewModelWriter.cs" company="Cognisant">
-// Copyright (c) Cognisant. All rights reserved.
+﻿// <copyright file="ApplicationStateViewModelWriter.cs" company="Corsham Science">
+// Copyright (c) Corsham Science. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.ApplicationState
+namespace CorshamScience.ViewModels.ApplicationState
 {
     using System;
     using System.Collections.Generic;
@@ -10,8 +10,8 @@ namespace CR.ViewModels.ApplicationState
     using System.Linq.Expressions;
     using System.Threading.Tasks;
     using System.Web;
-    using Core;
-    using Core.Exceptions;
+    using CorshamScience.ViewModels.Core;
+    using CorshamScience.ViewModels.Core.Exceptions;
 
     /// <inheritdoc />
     /// <summary>

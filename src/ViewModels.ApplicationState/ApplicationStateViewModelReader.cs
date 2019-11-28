@@ -1,13 +1,13 @@
-﻿// <copyright file="ApplicationStateViewModelReader.cs" company="Cognisant">
-// Copyright (c) Cognisant. All rights reserved.
+﻿// <copyright file="ApplicationStateViewModelReader.cs" company="Corsham Science">
+// Copyright (c) Corsham Science. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.ApplicationState
+namespace CorshamScience.ViewModels.ApplicationState
 {
     using System;
     using System.Linq;
     using System.Web;
-    using Core;
+    using CorshamScience.ViewModels.Core;
 
     /// <inheritdoc />
     /// <summary>
