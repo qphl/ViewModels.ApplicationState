@@ -12,5 +12,10 @@
         <iconUrl>https://raw.githubusercontent.com/qphl/ViewModels.ApplicationState/master/logo.png</iconUrl>
         <copyright>Corsham Science 2019</copyright>
         <releaseNotes>https://GitHub.com/qphl/ViewModels.ApplicationState/releases/tag/$tag$</releaseNotes>
+        <icon>Logo.png</icon>
+        <license type="expression">BSD-3-Clause</license>
     </metadata>
+    <files>
+        <file src="Logo.png" target="" />
+    </files>
 </package>

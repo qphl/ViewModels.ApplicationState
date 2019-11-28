@@ -43,6 +43,12 @@
 	<PackageReference Include="CorshamScience.ViewModels.Core" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Logo.png">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="System.Web" />
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
