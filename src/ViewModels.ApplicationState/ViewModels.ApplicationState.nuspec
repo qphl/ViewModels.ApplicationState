@@ -8,8 +8,6 @@
         <title>CorshamScience.ViewModels.ApplicationState</title>
         <owners>Corsham Science</owners>
         <projectUrl>https://github.com/qphl/ViewModels.ApplicationState</projectUrl>
-        <licenseUrl>https://github.com/qphl/ViewModels.ApplicationState/blob/master/LICENSE</licenseUrl>
-        <iconUrl>https://raw.githubusercontent.com/qphl/ViewModels.ApplicationState/master/logo.png</iconUrl>
         <copyright>Corsham Science 2019</copyright>
         <releaseNotes>https://GitHub.com/qphl/ViewModels.ApplicationState/releases/tag/$tag$</releaseNotes>
         <icon>Logo.png</icon>
